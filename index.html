@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 4 - Todos</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Todos from JSONPlaceholder</h1>
+
+    <div class="buttons">
+      <button id="btn-load">Load Todos</button>
+      <button id="btn-show-incomplete">Show Only Incomplete</button>
+      <button id="btn-show-all" disabled>Show All</button>
+      <button id="btn-mark-all-completed">Mark All Completed</button>
+      <button id="btn-get-completed">Get Completed Tasks</button>
+    </div>
+
+    <table id="todos-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Status</th>
+          <th>Toggle</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
